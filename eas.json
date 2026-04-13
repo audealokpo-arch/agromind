@@ -2,13 +2,14 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "appName": "agromind"
     },
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "appName": "agromind"
+    }
   }
-  "appname":
-  "agromind"
 }
