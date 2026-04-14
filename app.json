@@ -1,35 +1,18 @@
 {
   "expo": {
-    "name": "agrominde",
+    "name": "AgroMind",
     "slug": "agromind",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.agromind.app"
+      "image": "./assets/logo_aude_agro",
+      "backgroundColor": "#0a0a0a"
     },
     "android": {
+      "package": "com.audealokpo.agromind.svg",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "package": "com.agromind.app"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "78bbb456-00d3-4a5e-8de3-6699799920ac"
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#0a0a0a"
       }
     }
   }
