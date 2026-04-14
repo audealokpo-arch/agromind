@@ -8,7 +8,6 @@ import InscriptionScreen from './InscriptionScreen';
 import ConnexionScreen from './ConnexionScreen';
 import AgriFinanceScreen from './AgriFinanceScreen';
 
-
 const Stack = createStackNavigator();
 
 const categories = [
