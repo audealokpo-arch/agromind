@@ -3,16 +3,21 @@
     "name": "AgroMind",
     "slug": "agromind",
     "version": "1.0.0",
-    "icon": "./assets/logo.png",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/logo_aude_agro",
+      "image": "./assets/splash-icon.png",
       "backgroundColor": "#0a0a0a"
     },
     "android": {
-      "package": "com.audealokpo.agromind.svg",
+      "package": "com.audealokpo.agromind",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0a0a0a"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "audealokpo/agromind"
       }
     }
   }
