@@ -1,22 +1,15 @@
 {
-  "expo": {
-    "name": "AgroMind",
-    "slug": "agromind",
-    "version": "1.0.0",
-    "icon": "./logo_aude_agro.svg",
-    "splash": {
-      "backgroundColor": "#0a0a0a"
+  "cli": {
+    "version": ">= 16.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     },
-    "android": {
-      "package": "com.audealokpo.agromind",
-      "adaptiveIcon": {
-        "backgroundColor": "#0a0a0a"
-      }
+    "preview": {
+      "distribution": "internal"
     },
-    "extra": {
-      "eas": {
-        "projectId": "78bbb456-00d3-4a5e-8de3-6699799920ac"
-      }
-    }
+    "production": {}
   }
 }
