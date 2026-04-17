@@ -3,13 +3,16 @@
     "name": "AgroMind",
     "slug": "agromind",
     "version": "1.0.0",
-    "icon": "./logo_aude_agro.svg",
+    "icon": "./icon.png",
     "splash": {
+      "image": "./icon.png",
+      "resizeMode": "contain",
       "backgroundColor": "#0a0a0a"
     },
     "android": {
       "package": "com.audealokpo.agromind",
       "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
         "backgroundColor": "#0a0a0a"
       }
     },
